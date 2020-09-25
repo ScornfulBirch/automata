@@ -1,4 +1,8 @@
+
 # automata
+
+<img src="https://b.thumbs.redditmedia.com/fgPTrlTWKzx7u2-5y1-ZVgvML_3lA_hZXonp41yTyXo.png" align="right" width="10%" alt="Lightweight Kotlin (Android) Reddit API Wrapper" />
+
 [![API](https://img.shields.io/badge/API-16%2B-orange.svg)](https://android-arsenal.com/api?level=16)
 ![Android CI](https://github.com/lndmflngs/automata/workflows/Android%20CI/badge.svg?branch=master)
 [![](https://jitpack.io/v/lndmflngs/automata.svg)](https://jitpack.io/#lndmflngs/automata)
