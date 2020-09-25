@@ -1,0 +1,10 @@
+apply plugin: 'com.android.application'
+apply from: rootProject.file('gradle/android/base.gradle')
+apply from: rootProject.file('gradle/android/build.gradle')
+
+android {
+
+    buildFeatures {
+        viewBinding true
+    }
+}

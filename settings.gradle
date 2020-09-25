@@ -1,0 +1,4 @@
+rootProject.name = 'automata'
+include ':demo'
+include ':animation', ':android', ':core', ':file', ':graphics', ':intent', ':network',
+        ':notification', ':res', ':screen', ':text', ':time', ':view', ':view-binding'

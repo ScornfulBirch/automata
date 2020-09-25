@@ -1,0 +1,17 @@
+apply from: rootProject.file('gradle/android/library.gradle')
+apply from: rootProject.file('gradle/publish.gradle')
+apply from: rootProject.file('gradle/deps.gradle')
+
+dependencies {
+
+    implementation project(':core')
+    implementation project(':android')
+    implementation project(':screen')
+    implementation project(':res')
+    implementation project(':text')
+
+    implementation(
+            deps.kotlin.stdlib,
+            deps.android.appcompat
+    )
+}

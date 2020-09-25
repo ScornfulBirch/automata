@@ -1,0 +1,26 @@
+apply from: rootProject.file('gradle/android/app.gradle')
+apply from: rootProject.file('gradle/deps.gradle')
+
+dependencies {
+
+    implementation project(':android')
+    implementation project(':animation')
+    implementation project(':core')
+    implementation project(':file')
+    implementation project(':graphics')
+    implementation project(':intent')
+    implementation project(':network')
+    implementation project(':notification')
+    implementation project(':res')
+    implementation project(':screen')
+    implementation project(':text')
+    implementation project(':time')
+    implementation project(':view')
+    implementation project(':view-binding')
+
+    implementation(
+            deps.kotlin.stdlib,
+            deps.android.appcompat,
+            deps.android.recyclerView
+    )
+}
